@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-sm-8">
         <!-- <h1 style="color:black"> -->
-            <?php echo "<h1 style='color:black'>Welcome, ".$fname." ".$lname."</h1>";?> !
+            <?php echo "<h1 style='color:black'>Welcome, ".$fname.", ".$lname."</h1>";?> 
         <!-- </h1> -->
       </div>
     </div>
