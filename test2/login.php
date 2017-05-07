@@ -7,15 +7,13 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Welcome, please "login" </h2><br>
-      <h4>"Login" with your credential if you have an account. No account then please signup to create a new user account</h4>
-      <br>
+      <h2>Hey there, welcome to Agenda</h2>
+      <h4>Login with your credential and lets get started</h4>
     </div>
   </div>
-</div>
-      
-
-<hr>
+  </div>
+  
+ </hr>     
 <div class="container" style="color:black">
   <h2>Log In</h2>
   <form method="post" action="index.php" >
@@ -34,7 +32,7 @@
   </form><br>
     </div>
   </div>
-</div>
+  </div>
 
 <div class="container">
   <h4>Don't have an account?<form method="post" action="signup_process.php">  <input type="submit" value="Sign up" class="btn btn-default"></h4>
