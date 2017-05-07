@@ -12,7 +12,8 @@
     </div>
   </div>
 </div>
-     <h2>   Account Information</h2>
+   <b><h1>Its free and always will be <div style="position: left;right: -30%; background: grey"<b></h2><br>
+
 <div class="container">
   <form method="post" action="createaccount.php">
     <div class="form-group">

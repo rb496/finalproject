@@ -6,16 +6,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 <style>
-  body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-      color: #EEEEEE;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777777;
+    line-height: 1.8;
   }
   h2 {
       font-size: 24px;
@@ -144,7 +145,7 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #375c96;
+      color: #777777;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -208,7 +209,7 @@
 
 <div class="jumbotron text-center">
   <h1>Agenda</h1> 
-  <p>Signup for effective planning of your tasks and controlling the amount of time spent on your activities</p> 
+  <p>For effective task planning and time control</p> 
 </div>
 </body>
 </html>
