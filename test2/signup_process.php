@@ -12,7 +12,9 @@
     </div>
   </div>
 </div>
-   <b><h1>Its free and always will be <div style="position: left;right: -30%; background: grey"<b></h2><br>
+   <b><h1>CREATE A NEW ACCOUNT<h1>
+  <h4>Its free and always will be.</h4>
+   <div style="position: left;right: -30%; background: grey"<b></h2><br>
 
 <div class="container">
   <form method="post" action="createaccount.php">
@@ -27,7 +29,7 @@
     Last name:<br>
     <input type="text" name="lastname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
     <br>
-    E-mail address:<br>
+    Email :<br>
     <input type="text" name="email" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
     <br>
      Password: <br>
@@ -36,11 +38,11 @@
     Phone no:<br>
     <input type="text" name="phone" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
     <br>
-    Birthdate:<br>
+     Date of Birth:<br>
     <input type="date" name="birthday" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
     <br>
     Gender:<br>
-    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="male" > Male<br>
    <input type="radio" name="gender" value="female"> Female<br>
     <br>
     <input type="submit" action="createaccount.php" value="Create Account" class="btn btn-default">
