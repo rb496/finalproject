@@ -26,9 +26,9 @@ if ((getenv('JAWSDB_URL') != null)) {
 else {
 	
 	$hostname = "sql2.njit.edu";
-	$username = "yz746";
-	$password = "XpKmPKQQB";
-	$database = "yz746";
+	$username = "rb496";
+	$password = "gi5POQfH";
+	$database = "rb496";
 	try {
 		$db = new PDO("mysql:host=$hostname;dbname=$database", $username, $password, array(PDO::MYSQL_ATTR_FOUND_ROWS => true));
 		
