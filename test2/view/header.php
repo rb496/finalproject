@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>To-Do</title>
+  <title>Agenda</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
@@ -207,8 +207,8 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>To-Do</h1> 
-  <p>We specialize in time management</p> 
+  <h1>Agenda</h1> 
+  <p>Signup for effective planning of your tasks and controlling the amount of time spent on your activities</p> 
 </div>
 </body>
 </html>
