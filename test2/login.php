@@ -7,7 +7,7 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Get Started</h2><br>
+      <h2>Welcome, please "login" </h2><br>
       <h4>"Login" with your credential if you have an account. No account then please signup to create a new user account</h4>
       <br>
     </div>
@@ -20,13 +20,13 @@
   <h2>Log In</h2>
   <form method="post" action="index.php" >
     <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="text" name="email" class="form-control" id="email" placeholder="Enter email" value="">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" name="password" class="form-control" id="pwd" placeholder="Enter password" value="">
-    </div>
+    <div style="width: 34%;position: left;right: -30%;background: orange;padding: 8px 10px 8px 12px;color: #fff;border-radius: 7px;">
+    E-mail address:<br>
+    <input type="text" name="email" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
+    <br>
+     Password: <br>
+    <input type="password" name="password" class="form-control" id="email" value=""style="padding: 2px 7px 10px 9px;">
+    <br>
     <div class="form-group">
       <input type="hidden" name="action" class="form-control" value="test_user_valid">
     </div>
@@ -37,9 +37,7 @@
 </div>
 
 <div class="container">
-  <h2>Create Account</h2>
-  <form method="post" action="signup_process.php">
-    <input type="submit" value="Create Account" class="btn btn-default">
+  <h4>Don't have an account?<form method="post" action="signup_process.php">  <input type="submit" value="Sign up" class="btn btn-default"></h4>
   </form>
 </div>
 
