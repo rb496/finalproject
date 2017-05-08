@@ -33,23 +33,23 @@ body, html {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #pink;
-      color: #pink;
+      background-color: #acac9a;
+      color: #red;
       padding: 2px 25px;
       font-family: Nunito, sans-serif;
   }
   .container-fluid {
       padding: 60px 50px;
   }
-  .bg-grey {
-      background-color: #pink;
+  .bg-808080 {
+      background-color: #acac9a;
   }
   .logo-small {
-      color: #pink;
+      color: #172035;
       font-size: 50px;
   }
   .logo {
-      color: #pink;
+      color: #172035;
       font-size: 200px;
   }
   .thumbnail {
@@ -64,13 +64,13 @@ body, html {
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #808080;
+      color: #a46d63;
   }
   .carousel-indicators li {
-      border-color: #808080;
+      border-color: #a46d63;
   }
   .carousel-indicators li.active {
-      background-color: #808080;
+      background-color: #a46d63;
   }
   .item h4 {
       font-size: 19px;
@@ -83,7 +83,7 @@ body, html {
       font-style: normal;
   }
   .panel {
-      border: 1px solid #808080; 
+      border: 1px solid #a46d63; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -91,13 +91,13 @@ body, html {
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #808080;
-      background-color: #808080!important;
-      color: #808080;
+      border: 1px solid #a46d63;
+      background-color: #a46d63!important;
+      color: #a46d63;
   }
   .panel-heading {
-      color: #808080 !important;
-      background-color: #808080!important;
+      color: #a46d63 !important;
+      background-color: #a46d63!important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -112,17 +112,17 @@ body, html {
       font-size: 32px;
   }
   .panel-footer h4 {
-      color: #808080;
+      color: #a46d63;
       font-size: 14px;
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #808080;
-      color: #808080;
+      background-color: #a46d63;
+      color: #a46d63;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #808080;
+      background-color: #a46d63;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -132,20 +132,20 @@ body, html {
       font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #808080 !important;
+      color: #a46d63 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #808080 !important;
-      background-color: #808080 !important;
+      color: #a46d63 !important;
+      background-color: #a46d63 !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-      color: #808080 !important;
+      color: #a46d63 !important;
   }
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #808080;
+      color: #a46d63;
   }
   .slideanim {visibility:hidden;}
   .slide {
