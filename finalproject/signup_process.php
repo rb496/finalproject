@@ -12,7 +12,7 @@
   </div>
   <b><h1>CREATE A NEW ACCOUNT</b></h1>
   <h4>Its free and always will be.</h4>
-   <div style="position: left;right: -40%;; background: gray"</h2><br>
+   <div style="position: left;right: -40%;; background:a2a7ad"</h2><br>
 
 <div class="container">
   <form method="post" action="createaccount.php">
@@ -21,10 +21,10 @@
 <form >
   <fieldset>
     <legend>Register:</legend>
-    Fname:<br>
+    First name:<br>
     <input type="text" name="fname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
     <br>
-    Lname:<br>
+    Last name:<br>
     <input type="text" name="lname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
     <br>
     Email :<br>
@@ -43,10 +43,11 @@
     <input type="radio" name="gender" value="male" > Male<br>
    <input type="radio" name="gender" value="female"> Female<br>
     <br>
+    <h4><font size= "2">By clicking Create Account, you agree to our Terms and that you have read our Data Policy</font></h4>
     <input type="submit" action="createaccount.php" value="Create Account" class="btn btn-default">
   </fieldset>
 </div>
-</body>
+</body> 
 </html>
 
 <html>
