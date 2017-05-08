@@ -19,7 +19,7 @@
 <fieldset>
     <legend>Create new task:</legend>
     Task:<br>
-        <input type="text" name="task" value="" style="padding: 4px 9px 12px 11px" class="form-control" id="task" placeholder="Enter task">
+        <input type="text" name="task" value="" style="padding: 4px 9px 12px 11px" class="form-control" id="task" placeholder="Enter task"required>
         start date:<br>
         <input type="date" name="createddate"  value="" style="padding: 4px 9px 12px 11px" class="form-control" id="createddate" >
         end date:<br>
