@@ -33,7 +33,7 @@ body, html {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #acac9a;
+      background-color: #a2a7ad;
       color: #red;
       padding: 2px 25px;
       font-family: Nunito, sans-serif;
@@ -42,7 +42,7 @@ body, html {
       padding: 60px 50px;
   }
   .bg-808080 {
-      background-color: #acac9a;
+      background-color: #a2a7ad;
   }
   .logo-small {
       color: #172035;
