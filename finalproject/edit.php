@@ -25,7 +25,7 @@
      <fieldset>
      <legend>Edit your task:</legend>   
         Task:
-        <input type="text" name="task" value="" style="padding: 4px 9px 12px 11px" class="form-control" id="task" placeholder="Change Task" />
+        <input type="text" name="task" value="" style="padding: 4px 9px 12px 11px" class="form-control" id="task" placeholder="Change Task"required/>
         Start Date:<br>
         <input type="date" name="createddate" style="padding: 4px 9px 12px 11px" class="form-control" id="createddate" />
         <input type="hidden" name="item_id" class="form-control" id="item_id" value="<?php echo $item_id;?>" />
