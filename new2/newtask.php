@@ -18,7 +18,7 @@
     text-decoration: line-through;
     }
     .todolist{
-        background-color:#FFF;
+        background-color:#gray;
         padding:20px 20px 10px 20px;
         margin-top:30px;
     }
@@ -31,9 +31,9 @@
         border-radius:0;
     }
     li.ui-state-default{
-        background:#fff;
+        background:#gray;
         border:none;
-        border-bottom:1px solid #ddd;
+        border-bottom:1px solid #000080;
     }
 
     li.ui-state-default:last-child{
@@ -41,13 +41,13 @@
     }
 
     .todo-footer{
-        background-color:#F4FCE8;
+        background-color:#gray;
         margin:0 -20px -10px -20px;
         padding: 10px 20px;
     }
     #done-items li{
         padding:10px 0;
-        border-bottom:1px solid #ddd;
+        border-bottom:1px solid #gray;
         text-decoration:line-through;
     }
     #done-items li:last-child{
@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-sm-8">
         <!-- <h1 style="color:black"> -->
-            <?php echo "<h1 style='color:black'>Welcome, ".$fname." ".$lname."</h1>";?> 
+            <?php echo "<b><h1 style='color:black'>Hey there, ".$fname." ".$lname."</h1></b>";?> 
         <!-- </h1> -->
       </div>
     </div>
@@ -74,15 +74,15 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
-<div class="container">
-    <div class="row">
+<div class="container" style= "background: #FFA500">
+    <div class="row" style= "background: #FFA500">
       <div class="col-md-12">
-        <h4>My Tasks</h4>
+        <u><h4>My current tasks</h4></u>
           <div class="table-responsive">
             <table id="mytable" class="table table-bordred table-striped" style="color:black;">
                 <thead>
                   <th style="width:65%">Task</th>
-                  <th style="width:10%">Due Date</th>
+                  <th style="width:10%">End Date</th>
                   <th style="width:10%">Edit</th>
                   <th style="width:10%">Delete</th>
                   <th style="width:10%">Status</th>
@@ -133,15 +133,15 @@
 
 <br><hr><br>
 
-<div class="container">
-    <div class="row">
+<div class="container" style= "background: #FFA500">
+    <div class="row" style= "background: #FFA500">
       <div class="col-md-12">
-        <h4>Completed Tasks</h4>
+        <h4>Tasks completed</h4>
           <div class="table-responsive">
             <table id="mytable" class="table table-bordred table-striped" style="color:black;">
                 <thead>
                   <th style="width:65%">Task</th>
-                  <th style="width:10%">Due Date</th>
+                  <th style="width:10%">End Date</th>
                   <th style="width:10%">Edit</th>
                   <th style="width:10%">Delete</th>
                   <th style="width:10%">Status</th>
@@ -152,8 +152,8 @@
                       <?php $item_status = $res['isdone'];
                         if ($item_status == 1){
                       ?>
-                        <td> <span style='text-decoration:line-through; font-style: italic; color: #c1c1c1'><?php echo $res['task'];?></span></td>
-                        <td> <span style='text-decoration:line-through; font-style: italic; color: #c1c1c1'><?php echo $res['duedate'];?></span></td>
+                        <td> <span style='text-decoration:line-through; font-style: italic; color: #orange'><?php echo $res['task'];?></span></td>
+                        <td> <span style='text-decoration:line-through; font-style: italic; color: #orange'><?php echo $res['duedate'];?></span></td>
                         <td>
                           <form action = 'index.php' method = 'post' >
                             <input type="hidden" class="btn btn-danger" name = 'action' value="edit"/>
