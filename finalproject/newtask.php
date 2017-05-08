@@ -9,8 +9,6 @@
   $results = runQuery($sql);
 ?>
 
-
-
 <html>
 <head>
   <style>
@@ -65,7 +63,7 @@
     <div class="row">
       <div class="col-sm-8">
         <!-- <h1 style="color:black"> -->
-            <?php echo "<b><h1 style='color:black'>Hey there, ".$fname." ".$lname."</h1></b>";?> 
+            <?php echo "<b><h1 style='color:black'>HEY THERE,  ".$fname." ".$lname."</h1></b>";?> 
         <!-- </h1> -->
       </div>
     </div>
