@@ -22,16 +22,16 @@
   <fieldset>
     <legend>Register:</legend>
     First name:<br>
-    <input type="text" name="fname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
+    <input type="text" name="fname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;"required>
     <br>
     Last name:<br>
-    <input type="text" name="lname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
+    <input type="text" name="lname" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;"required>
     <br>
     Email :<br>
-    <input type="text" name="email" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
+    <input type="text" name="email" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;"required>
     <br>
      Password: <br>
-    <input type="password" name="password" class="form-control" id="email" value=""style="padding: 2px 7px 10px 9px;">
+    <input type="password" name="password" class="form-control" id="email" value=""style="padding: 2px 7px 10px 9px;"required>
     <br>
     Phone no:<br>
     <input type="text" name="phone" class="form-control" id="email" value="" style="padding: 2px 7px 10px 9px;">
@@ -43,7 +43,6 @@
     <input type="radio" name="gender" value="male" > Male<br>
    <input type="radio" name="gender" value="female"> Female<br>
     <br>
-    <h4><font size= "2">By clicking Create Account, you agree to our Terms and that you have read our Data Policy</font></h4>
     <input type="submit" action="createaccount.php" value="Create Account" class="btn btn-default">
   </fieldset>
 </div>
@@ -51,6 +50,7 @@
 </html>
 
 <html>
+<br>
 <div class="container">
   <h4>Have an account?</h4>
   <form method="post" action="login.php">
